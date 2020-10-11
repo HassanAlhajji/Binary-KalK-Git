@@ -149,9 +149,13 @@ class MainActivity : AppCompatActivity() {
         }
 
         val numberToCheck = inputNumber.toInt()
-        if (number == numberToCheck)
+        if (CompareUsingBinary(number, numberToCheck))
             resultText.setBackgroundColor(Color.GREEN)
         else
             resultText.setBackgroundColor(Color.RED)
+    }
+
+    private fun CompareUsingBinary(num1: Int, num2: Int): Boolean {
+        return (num1 xor num2) == 0
     }
 }
