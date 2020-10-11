@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="0"
+            android:textAlignment="center"
+            android:textSize="60sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.122" />
+
+        <EditText
+            android:id="@+id/input_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="0"
+            android:hint="Enter a number to check"
+            android:inputType="number" />
+
+        <Switch
+            android:id="@+id/s_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="2^0 * 0"
+            android:textSize="24sp"
+            tools:ignore="MissingConstraints,UseSwitchCompatOrMaterialXml"
+            tools:layout_editor_absoluteX="166dp"
+            tools:layout_editor_absoluteY="622dp" />
+
+        <Switch
+            android:id="@+id/s_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="2^1 * 0"
+            android:textSize="24sp"
+            tools:ignore="MissingConstraints,UseSwitchCompatOrMaterialXml"
+            tools:layout_editor_absoluteX="166dp"
+            tools:layout_editor_absoluteY="582dp" />
+
+        <Switch
+            android:id="@+id/s_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="2^2 * 0"
+            android:textSize="24sp"
+            tools:ignore="MissingConstraints,UseSwitchCompatOrMaterialXml"
+            tools:layout_editor_absoluteX="166dp"
+            tools:layout_editor_absoluteY="540dp" />
+
+        <Switch
+            android:id="@+id/s_8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="2^3 * 0"
+            android:textSize="24sp"
+            tools:ignore="MissingConstraints,UseSwitchCompatOrMaterialXml"
+            tools:layout_editor_absoluteX="166dp"
+            tools:layout_editor_absoluteY="497dp" />
+
+        <Switch
+            android:id="@+id/s_16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="2^4 * 0"
+            android:textSize="24sp"
+            tools:ignore="MissingConstraints,UseSwitchCompatOrMaterialXml"
+            tools:layout_editor_absoluteX="166dp"
+            tools:layout_editor_absoluteY="455dp" />
+
+        <Switch
+            android:id="@+id/s_32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="2^5 * 0"
+            android:textSize="24sp"
+            tools:ignore="MissingConstraints,UseSwitchCompatOrMaterialXml"
+            tools:layout_editor_absoluteX="166dp"
+            tools:layout_editor_absoluteY="412dp" />
+
+        <Switch
+            android:id="@+id/s_64"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="2^6 * 0"
+            android:textSize="24sp"
+            tools:ignore="MissingConstraints,UseSwitchCompatOrMaterialXml"
+            tools:layout_editor_absoluteX="166dp"
+            tools:layout_editor_absoluteY="370dp" />
+
+        <Switch
+            android:id="@+id/s_128"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="2^7 * 0"
+            android:textSize="24sp"
+            tools:ignore="MissingConstraints,UseSwitchCompatOrMaterialXml"
+            tools:layout_editor_absoluteX="166dp"
+            tools:layout_editor_absoluteY="329dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="By H-7"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:padding="12dp"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
